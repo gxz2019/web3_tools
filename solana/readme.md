@@ -1,7 +1,8 @@
-- first
+## first
 python3 -m venv venv
 source venv/bin/activate
 pip3 install solana
 
-- second
-fill in config.json
+## second
+touch config.json
+copy config.local.json
