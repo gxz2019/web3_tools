@@ -1,0 +1,20 @@
+{
+  "main_account": {
+    "private_key": "主账户私钥",
+    "transfer_amount": 1.0 
+  },
+  "sub_accounts": [
+    {
+      "private_key": "子账户私钥1",
+      "transfer_amount": 0.2
+    },
+    {
+      "private_key": "子账户私钥2",
+      "transfer_amount": 0.5
+    }
+  ],
+  "gas_settings": {
+    "priority_fee": 0.001
+  },
+  "rpc": "https://api.mainnet-beta.solana.com"
+}
